@@ -1,0 +1,208 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Sumith Kempapura Mahesh — Data Analyst portfolio showcasing analytics projects, SQL, Python, Excel and Power BI.">
+  <title>Sumith Kempapura Mahesh | Data Analyst</title>
+  <style>
+    :root {
+      --bg: #0b1120;
+      --panel: #121c30;
+      --text: #edf3ff;
+      --muted: #a8b5cc;
+      --accent: #64e6c2;
+      --line: #283750;
+    }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      line-height: 1.7;
+    }
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .container { width: min(1080px, 90%); margin: auto; }
+    header {
+      border-bottom: 1px solid var(--line);
+      position: sticky; top: 0; z-index: 5;
+      background: rgba(11,17,32,.95);
+      backdrop-filter: blur(12px);
+    }
+    nav {
+      min-height: 70px; display: flex; justify-content: space-between;
+      align-items: center; gap: 20px; flex-wrap: wrap;
+    }
+    .brand { font-weight: 800; color: var(--text); font-size: 18px; }
+    .navlinks { display: flex; gap: 22px; flex-wrap: wrap; font-size: 14px; }
+    .hero { padding: 92px 0 78px; }
+    .eyebrow { color: var(--accent); font-weight: 700; letter-spacing: 2px; font-size: 13px; }
+    h1 { font-size: clamp(38px, 7vw, 68px); line-height: 1.08; margin: 18px 0; letter-spacing: -2px; }
+    h1 span { color: var(--accent); }
+    .intro { max-width: 720px; color: var(--muted); font-size: 18px; }
+    .buttons { display: flex; gap: 14px; flex-wrap: wrap; margin-top: 28px; }
+    .btn { padding: 11px 18px; border: 1px solid var(--accent); border-radius: 8px; font-weight: 700; }
+    .btn.primary { background: var(--accent); color: #07121b; }
+    section { padding: 60px 0; border-top: 1px solid var(--line); }
+    h2 { font-size: 30px; margin: 0 0 12px; }
+    .section-intro { color: var(--muted); margin: 0 0 28px; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: 18px; }
+    .card { padding: 24px; background: var(--panel); border: 1px solid var(--line); border-radius: 14px; }
+    .card h3 { margin-top: 0; }
+    .card p, .muted { color: var(--muted); }
+    .tag { display: inline-block; margin: 4px 4px 4px 0; padding: 4px 9px; border: 1px solid var(--line); border-radius: 20px; color: var(--accent); font-size: 12px; }
+    .number { font-size: 24px; font-weight: 800; color: var(--accent); }
+    .contact-card { padding: 28px; border: 1px solid var(--line); border-radius: 14px; background: var(--panel); }
+    footer { padding: 28px 0; border-top: 1px solid var(--line); color: var(--muted); font-size: 13px; }
+    @media (max-width: 600px) {
+      .hero { padding: 60px 0; }
+      .navlinks { gap: 12px; }
+      .brand { font-size: 16px; }
+      h1 { letter-spacing: -1px; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <nav class="container">
+      <a class="brand" href="#home">Sumith KM<span style="color:var(--accent)">.</span></a>
+      <div class="navlinks">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero container" id="home" style="border:0">
+      <div class="eyebrow">DATA ANALYTICS · BUSINESS INSIGHTS</div>
+      <h1>Turning data into<br><span>clear decisions.</span></h1>
+      <p class="intro">
+        Hi, I'm Sumith Kempapura Mahesh, a Data Analytics postgraduate
+        interested in using data to understand business problems, uncover
+        patterns and communicate practical insights.
+      </p>
+      <p class="muted">SQL · Python · Excel · Power BI · Statistics</p>
+      <div class="buttons">
+        <a class="btn primary" href="#projects">Explore my projects ↓</a>
+        <a class="btn" href="https://www.linkedin.com/in/sumith-kempapuramahesh/" target="_blank" rel="noopener noreferrer">Connect on LinkedIn ↗</a>
+      </div>
+    </section>
+
+    <section id="about">
+      <div class="container">
+        <h2>About me</h2>
+        <p class="section-intro">
+          I completed an MSc in Data Analytics at De Montfort University.
+          I enjoy exploring datasets, checking data quality, analysing trends
+          and presenting findings in a way that supports business decisions.
+        </p>
+        <div class="grid">
+          <div class="card">
+            <div class="number">01</div>
+            <h3>Understand</h3>
+            <p>Start with the business question and identify the measures that matter.</p>
+          </div>
+          <div class="card">
+            <div class="number">02</div>
+            <h3>Analyse</h3>
+            <p>Clean, validate and explore data to identify patterns and meaningful trends.</p>
+          </div>
+          <div class="card">
+            <div class="number">03</div>
+            <h3>Communicate</h3>
+            <p>Present findings through clear visuals, reporting and practical recommendations.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills">
+      <div class="container">
+        <h2>Skills & tools</h2>
+        <p class="section-intro">Tools and techniques I have used or studied through analytics work and projects.</p>
+        <div class="card">
+          <h3>Data analysis</h3>
+          <span class="tag">SQL</span><span class="tag">Python</span>
+          <span class="tag">Pandas</span><span class="tag">NumPy</span>
+          <span class="tag">Excel</span><span class="tag">Data cleaning</span>
+          <span class="tag">Exploratory data analysis</span>
+          <h3 style="margin-top:24px">Visualisation & statistics</h3>
+          <span class="tag">Power BI</span><span class="tag">Data visualisation</span>
+          <span class="tag">Hypothesis testing</span><span class="tag">Statistical analysis</span>
+          <span class="tag"> scikit-learn</span>
+          <h3 style="margin-top:24px">Business skills</h3>
+          <span class="tag">KPI reporting</span><span class="tag">Trend analysis</span>
+          <span class="tag">Data quality</span><span class="tag">Insight communication</span>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects">
+      <div class="container">
+        <h2>Featured projects</h2>
+        <p class="section-intro">A growing collection of analytics projects demonstrating my approach to business questions and data.</p>
+        <div class="grid">
+          <article class="card">
+            <span class="tag">Machine Learning · Power BI</span>
+            <h3>HR Employee Attrition Analysis</h3>
+            <p>An academic project exploring employee attrition patterns, analysing possible contributing factors and presenting findings through visual reporting and predictive modelling.</p>
+            <p><strong>Focus:</strong> Data preparation, exploratory analysis, statistical testing and model evaluation.</p>
+            <a href="https://github.com/SumithKM" target="_blank" rel="noopener noreferrer">Project files coming soon ↗</a>
+          </article>
+          <article class="card">
+            <span class="tag">Python · E-commerce</span>
+            <h3>E-commerce Customer Behaviour</h3>
+            <p>Upcoming project exploring retail transactions to understand purchasing patterns, product performance, customer activity and sales trends.</p>
+            <p><strong>Focus:</strong> Data cleaning, customer analysis and business recommendations.</p>
+            <span class="muted">In progress</span>
+          </article>
+          <article class="card">
+            <span class="tag">SQL · Business Intelligence</span>
+            <h3>Sales Performance Analysis</h3>
+            <p>Planned project to investigate sales performance, compare product categories and track business KPIs over time.</p>
+            <p><strong>Focus:</strong> SQL queries, KPI definitions and decision-ready reporting.</p>
+            <span class="muted">Planned</span>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="education">
+      <div class="container">
+        <h2>Education</h2>
+        <div class="card">
+          <h3>MSc Data Analytics</h3>
+          <p>De Montfort University, United Kingdom · 2024</p>
+          <p class="muted">Postgraduate study in analytics, statistical methods and data-driven problem solving.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="container">
+        <h2>Let's connect</h2>
+        <div class="contact-card">
+          <p class="muted">I'm keen to connect with analytics professionals, learn from the data community and explore opportunities to contribute to data-driven teams.</p>
+          <div class="buttons">
+            <a class="btn primary" href="https://www.linkedin.com/in/sumith-kempapuramahesh/" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a>
+            <a class="btn" href="https://github.com/SumithKM" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+            <a class="btn" href="mailto:YOUR_EMAIL@example.com">Email me ↗</a>
+          </div>
+          <p class="muted" style="font-size:13px">Before publishing, replace the example email address with your professional email.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">© 2026 Sumith Kempapura Mahesh · Built with HTML and CSS · Hosted on GitHub Pages</div>
+  </footer>
+</body>
+</html>
